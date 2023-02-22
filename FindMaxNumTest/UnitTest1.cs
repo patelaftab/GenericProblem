@@ -54,5 +54,11 @@ namespace FindMaxNumTest
             string result = genericMethodForstring.FindMaximumGeneric("Apple", "Clothes", "Cat");
             Assert.AreEqual("Clothes", result);
         }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnThirdMaxstring()
+        {
+            string result = genericMethodForstring.FindMaximumGeneric("Apple", "Clothes", "Catloague");
+            Assert.AreEqual("Catloague", result);
+        }
     }
 }
