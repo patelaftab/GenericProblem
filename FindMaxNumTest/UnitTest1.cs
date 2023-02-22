@@ -4,6 +4,7 @@ namespace FindMaxNumTest
     public class Tests
     {
         GenericClass<int> genericMethodForInt=new GenericClass<int>();
+        GenericClass<double> genericMethodForDouble = new GenericClass<double>();
         [Test]
         public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnFirstMax()
         {
@@ -21,6 +22,12 @@ namespace FindMaxNumTest
         {
             int result = genericMethodForInt.FindMaximumGeneric(26, 30, 37);
             Assert.AreEqual(30, result);
+        }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnFirstMaxdouble()
+        {
+            double result = genericMethodForDouble.FindMaximumGeneric(2.6, 2.3, 2.2);
+            Assert.AreEqual(2.6, result);
         }
     }
 }
