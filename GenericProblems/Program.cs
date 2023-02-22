@@ -25,7 +25,7 @@ namespace GenericProblems
                         MaximumNumber.FindingMaximum(9, 5, 1);
                         break;
                     case 2:
-                        MaximumNumber.FindingFloatMaximum(1.2, 3.2, 5.4);
+                        MaximumNumber.FindingFloatMaximum(1.2f, 3.2f, 5.4f);
                         break;
                     default:
                         Console.WriteLine("Choose a Correct Option");

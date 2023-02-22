@@ -27,7 +27,7 @@ namespace GenericProblems
                 Console.WriteLine("All Numers Are Equal");
             }
         }
-        public static void FindingFloatMaximum(double FirstNumber, double SecondNumber, double ThirdNumber)
+        public static void FindingFloatMaximum(float FirstNumber, float SecondNumber, float ThirdNumber)
         {
             if (FirstNumber.CompareTo(SecondNumber) >= 0 && FirstNumber.CompareTo(ThirdNumber) >= 0)
             {
