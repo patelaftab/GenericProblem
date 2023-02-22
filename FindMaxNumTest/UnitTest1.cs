@@ -29,5 +29,11 @@ namespace FindMaxNumTest
             double result = genericMethodForDouble.FindMaximumGeneric(2.6, 2.3, 2.2);
             Assert.AreEqual(2.6, result);
         }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnSecondMaxdouble()
+        {
+            double result = genericMethodForDouble.FindMaximumGeneric(2.6, 3.2, 2.2);
+            Assert.AreEqual(3.2, result);
+        }
     }
 }
