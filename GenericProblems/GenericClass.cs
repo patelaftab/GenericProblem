@@ -19,7 +19,7 @@ namespace GenericProblems
                 return secondNumber;
             }
             else
-                return thirdNumber;
+                return firstNumber;
         }
     }
 }

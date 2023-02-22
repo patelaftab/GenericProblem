@@ -27,6 +27,9 @@ namespace GenericProblems
                     case 2:
                         MaximumNumber.FindingFloatMaximum(1.2f, 3.2f, 5.4f);
                         break;
+                    case 3:
+                        MaximumNumber.FindingStringMaximum("Banglore", "Pune", "Delhi");
+                        break;
                     default:
                         Console.WriteLine("Choose a Correct Option");
                         break;
