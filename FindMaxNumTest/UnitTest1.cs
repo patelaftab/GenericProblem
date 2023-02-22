@@ -10,5 +10,11 @@ namespace FindMaxNumTest
             int result = genericMethodForInt.FindMaximumGeneric(26, 20, 17);
             Assert.AreEqual(26, result);
         }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnSecondMax()
+        {
+            int result = genericMethodForInt.FindMaximumGeneric(26, 30, 17);
+            Assert.AreEqual(30, result);
+        }
     }
 }
